@@ -1,0 +1,2 @@
+log,cases,events,events per trace,median case duration,mean case duration,activities,words pre filtering,words post filtering,vocabulary pre filtering,vocabulary post filtering
+./data/bpi_2012_enriched_filtered_A.xes,13087,60849,4.649575915030183,0.6475829398135344,8.077909500702551,10,893372,377007,21626,9690

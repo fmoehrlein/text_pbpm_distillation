@@ -1,0 +1,109 @@
+0: event -1 activity question > 0.5000 T: 1, F: 48
+1: event -2 LDA topic 73 > 0.0003 T: 2, F: 3
+2: predict taken
+3: event -2 BoNG want cancel > 0.1237 T: 4, F: 41
+4: event -2 BoNG consultant work > 0.1549 T: 5, F: 34
+5: event -2 LDA topic 70 > 0.2020 T: 6, F: 29
+6: event -3 time since monday scaled > 0.0001 T: 7, F: 20
+7: event -2 activity question > 0.5000 T: 8, F: 9
+8: predict taken
+9: event -2 LDA topic 84 > 0.6598 T: 10, F: 19
+10: event -2 LDA topic 70 > 0.1848 T: 11, F: 16
+11: event -2 LDA topic 95 > 0.2525 T: 12, F: 13
+12: predict mijn_berichten
+13: event -2 LDA topic 45 > 0.0050 T: 14, F: 15
+14: predict mijn_berichten
+15: predict mijn_werkmap
+16: event -2 LDA topic 82 > 0.0020 T: 17, F: 18
+17: predict mijn_berichten
+18: predict mijn_werkmap
+19: predict mijn_werkmap
+20: event -2 time since prev scaled > 0.0003 T: 21, F: 28
+21: event -4 LDA topic 22 > 0.0003 T: 22, F: 27
+22: event -3 activity question > 0.5000 T: 23, F: 26
+23: event -2 LDA topic 89 > 0.0075 T: 24, F: 25
+24: predict mijn_berichten
+25: predict taken
+26: predict mijn_berichten
+27: predict mijn_berichten
+28: predict mijn_berichten
+29: event -2 LDA topic 38 > 0.1288 T: 30, F: 31
+30: predict mijn_berichten
+31: event -3 LDA topic 0 > 0.0025 T: 32, F: 33
+32: predict mijn_werkmap
+33: predict mijn_berichten
+34: event -3 LDA topic 9 > 0.0009 T: 35, F: 38
+35: event -2 LDA topic 74 > 0.0025 T: 36, F: 37
+36: predict mijn_werkmap
+37: predict mijn_berichten
+38: event -3 LDA topic 71 > 0.4197 T: 39, F: 40
+39: predict mijn_berichten
+40: predict mijn_werkmap
+41: event -3 LDA topic 85 > 0.0004 T: 42, F: 43
+42: predict mijn_werkmap
+43: event -3 LDA topic 70 > 0.5438 T: 44, F: 47
+44: event -3 BoNG consultant job > 0.2982 T: 45, F: 46
+45: predict mijn_berichten
+46: predict mijn_werkmap
+47: predict mijn_werkmap
+48: event -1 BoNG want cancel > 0.1237 T: 49, F: 106
+49: event -2 LDA topic 71 > 0.0075 T: 50, F: 93
+50: event -1 BoNG consultant work > 0.1549 T: 51, F: 90
+51: event -2 BoNG consultant work > 0.1331 T: 52, F: 89
+52: event -5 LDA topic 86 > 0.0004 T: 53, F: 82
+53: event -3 BoNG consultant work > 0.1331 T: 54, F: 81
+54: event -1 LDA topic 70 > 0.1848 T: 55, F: 76
+55: event -4 LDA topic 67 > 0.0075 T: 56, F: 71
+56: event -3 BoNG want cancel > 0.2687 T: 57, F: 70
+57: event -1 LDA topic 84 > 0.6897 T: 58, F: 69
+58: event -1 LDA topic 46 > 0.1563 T: 59, F: 64
+59: event -1 LDA topic 95 > 0.2525 T: 60, F: 61
+60: predict taken
+61: event -1 LDA topic 45 > 0.0050 T: 62, F: 63
+62: predict taken
+63: predict mijn_werkmap
+64: event -1 LDA topic 46 > 0.2525 T: 65, F: 66
+65: predict mijn_werkmap
+66: event -1 LDA topic 38 > 0.0042 T: 67, F: 68
+67: predict taken
+68: predict mijn_werkmap
+69: predict mijn_werkmap
+70: predict mijn_werkmap
+71: event -3 LDA topic 31 > 0.0075 T: 72, F: 75
+72: event -4 LDA topic 92 > 0.0054 T: 73, F: 74
+73: predict mijn_werkmap
+74: predict taken
+75: predict question
+76: event -1 LDA topic 38 > 0.1288 T: 77, F: 80
+77: event -1 LDA topic 70 > 0.2019 T: 78, F: 79
+78: predict mijn_werkmap
+79: predict taken
+80: predict mijn_werkmap
+81: predict mijn_werkmap
+82: event -5 LDA topic 56 > 0.0075 T: 83, F: 88
+83: event -6 LDA topic 31 > 0.0008 T: 84, F: 87
+84: event -5 LDA topic 74 > 0.0050 T: 85, F: 86
+85: predict question
+86: predict mijn_werkmap
+87: predict mijn_werkmap
+88: predict mijn_berichten
+89: predict mijn_werkmap
+90: event -1 LDA topic 78 > 0.0025 T: 91, F: 92
+91: predict mijn_werkmap
+92: predict taken
+93: event -2 activity question > 0.5000 T: 94, F: 103
+94: event -3 activity question > 0.5000 T: 95, F: 100
+95: event -1 BoNG consultant work > 0.1549 T: 96, F: 99
+96: event -4 activity question > 0.5000 T: 97, F: 98
+97: predict question
+98: predict mijn_werkmap
+99: predict mijn_werkmap
+100: event -5 LDA topic 53 > 0.0013 T: 101, F: 102
+101: predict mijn_werkmap
+102: predict home
+103: event -2 LDA topic 68 > 0.0025 T: 104, F: 105
+104: predict mijn_werkmap
+105: predict taken
+106: event -4 LDA topic 88 > 0.0075 T: 107, F: 108
+107: predict mijn_werkmap
+108: predict question

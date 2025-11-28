@@ -1,0 +1,107 @@
+0: event -1 activity question > 0.5000 T: 1, F: 48
+1: event -2 LDA topic 7 > 0.0003 T: 2, F: 3
+2: predict taken
+3: event -2 BoW consultant > 0.2340 T: 4, F: 37
+4: event -2 BoW workbook > 0.7985 T: 5, F: 32
+5: event -3 time since monday scaled > 0.0001 T: 6, F: 23
+6: event -2 activity question > 0.5000 T: 7, F: 8
+7: predict taken
+8: event -2 BoW want > 0.8440 T: 9, F: 20
+9: event -2 BoW cancel > 0.2298 T: 10, F: 19
+10: event -2 LDA topic 84 > 0.6598 T: 11, F: 18
+11: event -2 BoW message > 0.8023 T: 12, F: 17
+12: event -2 BoW want > 0.6070 T: 13, F: 14
+13: predict mijn_berichten
+14: event -2 LDA topic 21 > 0.0021 T: 15, F: 16
+15: predict mijn_berichten
+16: predict mijn_werkmap
+17: predict mijn_werkmap
+18: predict mijn_werkmap
+19: predict mijn_werkmap
+20: event -2 LDA topic 15 > 0.0042 T: 21, F: 22
+21: predict mijn_berichten
+22: predict mijn_werkmap
+23: event -2 time since prev scaled > 0.0003 T: 24, F: 31
+24: event -4 LDA topic 81 > 0.0003 T: 25, F: 30
+25: event -3 activity question > 0.5000 T: 26, F: 29
+26: event -2 LDA topic 72 > 0.0075 T: 27, F: 28
+27: predict mijn_berichten
+28: predict taken
+29: predict mijn_berichten
+30: predict mijn_berichten
+31: predict mijn_berichten
+32: event -3 LDA topic 46 > 0.0006 T: 33, F: 36
+33: event -2 LDA topic 38 > 0.1279 T: 34, F: 35
+34: predict mijn_berichten
+35: predict mijn_werkmap
+36: predict mijn_berichten
+37: event -3 LDA topic 99 > 0.0008 T: 38, F: 43
+38: event -2 LDA topic 74 > 0.0025 T: 39, F: 42
+39: event -4 LDA topic 51 > 0.0008 T: 40, F: 41
+40: predict mijn_werkmap
+41: predict mijn_berichten
+42: predict mijn_berichten
+43: event -3 BoW consultant > 0.1941 T: 44, F: 45
+44: predict mijn_berichten
+45: event -4 LDA topic 72 > 0.0005 T: 46, F: 47
+46: predict mijn_werkmap
+47: predict mijn_berichten
+48: event -1 BoW consultant > 0.2340 T: 49, F: 102
+49: event -2 LDA topic 71 > 0.0075 T: 50, F: 89
+50: event -2 BoW consultant > 0.1280 T: 51, F: 88
+51: event -5 LDA topic 42 > 0.0004 T: 52, F: 81
+52: event -3 BoW consultant > 0.1280 T: 53, F: 80
+53: event -1 BoW workbook > 0.7985 T: 54, F: 77
+54: event -4 LDA topic 67 > 0.0075 T: 55, F: 72
+55: event -1 BoW cancel > 0.2298 T: 56, F: 71
+56: event -1 BoW want > 0.8481 T: 57, F: 68
+57: event -1 LDA topic 84 > 0.6897 T: 58, F: 67
+58: event -1 LDA topic 46 > 0.1563 T: 59, F: 60
+59: predict taken
+60: event -1 LDA topic 46 > 0.3367 T: 61, F: 64
+61: event -2 time since midnight scaled > 0.3755 T: 62, F: 63
+62: predict mijn_werkmap
+63: predict taken
+64: event -1 LDA topic 70 > 0.0042 T: 65, F: 66
+65: predict taken
+66: predict mijn_werkmap
+67: predict mijn_werkmap
+68: event -1 LDA topic 17 > 0.0042 T: 69, F: 70
+69: predict taken
+70: predict mijn_werkmap
+71: predict mijn_werkmap
+72: event -3 LDA topic 27 > 0.0075 T: 73, F: 76
+73: event -4 LDA topic 61 > 0.0054 T: 74, F: 75
+74: predict mijn_werkmap
+75: predict taken
+76: predict question
+77: event -1 LDA topic 38 > 0.1279 T: 78, F: 79
+78: predict taken
+79: predict mijn_werkmap
+80: predict mijn_werkmap
+81: event -5 LDA topic 58 > 0.0075 T: 82, F: 87
+82: event -6 LDA topic 20 > 0.0008 T: 83, F: 86
+83: event -4 BoW consultant > 0.1941 T: 84, F: 85
+84: predict question
+85: predict mijn_werkmap
+86: predict mijn_werkmap
+87: predict mijn_berichten
+88: predict mijn_werkmap
+89: event -2 activity question > 0.5000 T: 90, F: 97
+90: event -3 activity question > 0.5000 T: 91, F: 94
+91: event -4 activity question > 0.5000 T: 92, F: 93
+92: predict question
+93: predict mijn_werkmap
+94: event -5 LDA topic 87 > 0.0013 T: 95, F: 96
+95: predict mijn_werkmap
+96: predict home
+97: event -2 LDA topic 42 > 0.0029 T: 98, F: 101
+98: event -3 LDA topic 27 > 0.0075 T: 99, F: 100
+99: predict mijn_werkmap
+100: predict taken
+101: predict taken
+102: event -1 LDA topic 42 > 0.0025 T: 103, F: 106
+103: event -4 LDA topic 20 > 0.0075 T: 104, F: 105
+104: predict mijn_werkmap
+105: predict question
+106: predict taken

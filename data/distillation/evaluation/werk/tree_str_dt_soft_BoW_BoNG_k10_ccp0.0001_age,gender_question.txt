@@ -1,0 +1,15 @@
+0: event -1 activity question > 0.5000 T: 1, F: 12
+1: event -4 time since midnight scaled > 0.0000 T: 2, F: 9
+2: event -2 time since monday scaled > 0.0001 T: 3, F: 4
+3: predict taken
+4: event -2 activity question > 0.5000 T: 5, F: 8
+5: event -3 activity question > 0.5000 T: 6, F: 7
+6: predict taken
+7: predict taken
+8: predict taken
+9: event -3 activity question > 0.5000 T: 10, F: 11
+10: predict taken
+11: predict taken
+12: event -1 BoW consultant > 0.2340 T: 13, F: 14
+13: predict taken
+14: predict taken

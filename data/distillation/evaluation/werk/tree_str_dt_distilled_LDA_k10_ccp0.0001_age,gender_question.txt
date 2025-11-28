@@ -1,0 +1,119 @@
+0: event -1 activity question > 0.5000 T: 1, F: 48
+1: event -2 LDA topic 98 > 0.0003 T: 2, F: 3
+2: predict taken
+3: event -2 LDA topic 71 > 0.1735 T: 4, F: 39
+4: event -2 LDA topic 67 > 0.5098 T: 5, F: 36
+5: event -2 LDA topic 70 > 0.2525 T: 6, F: 29
+6: event -3 time since monday scaled > 0.0001 T: 7, F: 20
+7: event -2 activity question > 0.5000 T: 8, F: 9
+8: predict taken
+9: event -2 LDA topic 84 > 0.6598 T: 10, F: 19
+10: event -2 LDA topic 46 > 0.1984 T: 11, F: 16
+11: event -2 LDA topic 95 > 0.2525 T: 12, F: 13
+12: predict mijn_berichten
+13: event -2 LDA topic 8 > 0.0050 T: 14, F: 15
+14: predict mijn_berichten
+15: predict mijn_werkmap
+16: event -2 LDA topic 70 > 0.1844 T: 17, F: 18
+17: predict mijn_berichten
+18: predict mijn_werkmap
+19: predict mijn_werkmap
+20: event -2 time since prev scaled > 0.0003 T: 21, F: 28
+21: event -4 LDA topic 27 > 0.0003 T: 22, F: 27
+22: event -3 activity question > 0.5000 T: 23, F: 26
+23: event -2 LDA topic 90 > 0.0075 T: 24, F: 25
+24: predict mijn_berichten
+25: predict taken
+26: predict mijn_berichten
+27: predict mijn_berichten
+28: predict mijn_berichten
+29: event -3 LDA topic 13 > 0.0009 T: 30, F: 33
+30: event -2 LDA topic 41 > 0.0042 T: 31, F: 32
+31: predict mijn_werkmap
+32: predict mijn_berichten
+33: event -3 LDA topic 71 > 0.4197 T: 34, F: 35
+34: predict mijn_berichten
+35: predict mijn_werkmap
+36: event -3 LDA topic 77 > 0.0007 T: 37, F: 38
+37: predict mijn_werkmap
+38: predict mijn_berichten
+39: event -3 LDA topic 90 > 0.0008 T: 40, F: 45
+40: event -2 LDA topic 52 > 0.0025 T: 41, F: 44
+41: event -2 LDA topic 45 > 0.0018 T: 42, F: 43
+42: predict mijn_berichten
+43: predict mijn_werkmap
+44: predict mijn_berichten
+45: event -3 LDA topic 71 > 0.4274 T: 46, F: 47
+46: predict mijn_berichten
+47: predict mijn_werkmap
+48: event -2 LDA topic 71 > 0.0075 T: 49, F: 98
+49: event -1 LDA topic 71 > 0.1735 T: 50, F: 93
+50: event -1 LDA topic 67 > 0.5098 T: 51, F: 92
+51: event -1 LDA topic 70 > 0.3367 T: 52, F: 89
+52: event -2 LDA topic 67 > 0.5931 T: 53, F: 88
+53: event -5 LDA topic 4 > 0.0004 T: 54, F: 81
+54: event -2 LDA topic 70 > 0.3833 T: 55, F: 80
+55: event -4 LDA topic 67 > 0.0075 T: 56, F: 77
+56: event -3 LDA topic 71 > 0.1314 T: 57, F: 76
+57: event -3 LDA topic 67 > 0.5203 T: 58, F: 75
+58: event -1 LDA topic 84 > 0.6897 T: 59, F: 74
+59: event -3 LDA topic 70 > 0.3160 T: 60, F: 73
+60: event -1 LDA topic 46 > 0.1563 T: 61, F: 68
+61: event -1 LDA topic 70 > 0.2272 T: 62, F: 67
+62: event -1 LDA topic 95 > 0.2525 T: 63, F: 64
+63: predict taken
+64: event -1 LDA topic 8 > 0.0050 T: 65, F: 66
+65: predict taken
+66: predict mijn_werkmap
+67: predict taken
+68: event -1 LDA topic 46 > 0.2525 T: 69, F: 70
+69: predict mijn_werkmap
+70: event -1 LDA topic 70 > 0.0042 T: 71, F: 72
+71: predict taken
+72: predict mijn_werkmap
+73: predict mijn_werkmap
+74: predict mijn_werkmap
+75: predict mijn_werkmap
+76: predict mijn_werkmap
+77: event -3 LDA topic 37 > 0.0075 T: 78, F: 79
+78: predict taken
+79: predict question
+80: predict mijn_werkmap
+81: event -5 LDA topic 99 > 0.0075 T: 82, F: 87
+82: event -6 LDA topic 53 > 0.0008 T: 83, F: 86
+83: event -5 LDA topic 74 > 0.0050 T: 84, F: 85
+84: predict question
+85: predict mijn_werkmap
+86: predict mijn_werkmap
+87: predict mijn_berichten
+88: predict mijn_werkmap
+89: event -1 LDA topic 41 > 0.0042 T: 90, F: 91
+90: predict mijn_werkmap
+91: predict taken
+92: predict mijn_werkmap
+93: event -1 LDA topic 97 > 0.0025 T: 94, F: 97
+94: event -1 LDA topic 45 > 0.0018 T: 95, F: 96
+95: predict taken
+96: predict mijn_werkmap
+97: predict taken
+98: event -2 activity question > 0.5000 T: 99, F: 116
+99: event -3 activity question > 0.5000 T: 100, F: 113
+100: event -1 LDA topic 71 > 0.1736 T: 101, F: 110
+101: event -1 LDA topic 70 > 0.2940 T: 102, F: 109
+102: event -1 LDA topic 67 > 0.4818 T: 103, F: 106
+103: event -4 activity question > 0.5000 T: 104, F: 105
+104: predict question
+105: predict mijn_werkmap
+106: event -4 LDA topic 55 > 0.0050 T: 107, F: 108
+107: predict mijn_werkmap
+108: predict question
+109: predict mijn_werkmap
+110: event -4 LDA topic 64 > 0.0056 T: 111, F: 112
+111: predict mijn_werkmap
+112: predict question
+113: event -5 LDA topic 39 > 0.0013 T: 114, F: 115
+114: predict mijn_werkmap
+115: predict home
+116: event -2 LDA topic 74 > 0.0025 T: 117, F: 118
+117: predict mijn_werkmap
+118: predict taken

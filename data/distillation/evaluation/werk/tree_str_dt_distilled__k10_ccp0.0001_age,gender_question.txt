@@ -1,0 +1,87 @@
+0: event -1 activity question > 0.5000 T: 1, F: 40
+1: event -2 time since monday scaled > 0.0000 T: 2, F: 3
+2: predict taken
+3: event -3 time since monday scaled > 0.0001 T: 4, F: 29
+4: event -2 activity question > 0.5000 T: 5, F: 6
+5: predict taken
+6: event -1 time since prev scaled > 0.0038 T: 7, F: 24
+7: event -1 activity mijn berichten > 0.5000 T: 8, F: 19
+8: event -1 time since prev scaled > 0.0009 T: 9, F: 16
+9: event -1 activity home > 0.5000 T: 10, F: 15
+10: event -1 activity werkmap > 0.5000 T: 11, F: 12
+11: predict mijn_berichten
+12: event -1 time since prev scaled > 0.0004 T: 13, F: 14
+13: predict mijn_berichten
+14: predict mijn_berichten
+15: predict mijn_berichten
+16: event -1 activity taken > 0.5000 T: 17, F: 18
+17: predict mijn_berichten
+18: predict mijn_berichten
+19: event -1 time since midnight scaled > 0.3339 T: 20, F: 21
+20: predict mijn_werkmap
+21: event -1 time since monday scaled > 0.6429 T: 22, F: 23
+22: predict mijn_werkmap
+23: predict mijn_berichten
+24: event -1 activity mijn berichten > 0.5000 T: 25, F: 26
+25: predict mijn_berichten
+26: event -1 time since prev scaled > 0.1463 T: 27, F: 28
+27: predict mijn_berichten
+28: predict mijn_berichten
+29: event -1 time since prev scaled > 0.0000 T: 30, F: 31
+30: predict mijn_werkmap
+31: event -2 time since prev scaled > 0.0005 T: 32, F: 39
+32: event -4 time since midnight scaled > 0.0000 T: 33, F: 38
+33: event -3 activity question > 0.5000 T: 34, F: 37
+34: event -2 activity question > 0.5000 T: 35, F: 36
+35: predict taken
+36: predict mijn_berichten
+37: predict mijn_berichten
+38: predict mijn_berichten
+39: predict mijn_berichten
+40: event -2 activity mijn berichten > 0.5000 T: 41, F: 82
+41: event -2 activity taken > 0.5000 T: 42, F: 79
+42: event -2 activity home > 0.5000 T: 43, F: 78
+43: event -5 time since midnight scaled > 0.1667 T: 44, F: 73
+44: event -2 activity wijziging doorgeven > 0.5000 T: 45, F: 72
+45: event -2 activity mijn cv > 0.5000 T: 46, F: 71
+46: event -4 activity home > 0.5000 T: 47, F: 70
+47: event -2 activity aanvragen-ww > 0.5000 T: 48, F: 67
+48: event -2 activity vacatures bij mijn cv > 0.5000 T: 49, F: 66
+49: event -2 activity mijn werkmap > 0.5000 T: 50, F: 65
+50: event -2 activity mijn documenten > 0.5000 T: 51, F: 62
+51: event -1 time since midnight scaled > 0.3750 T: 52, F: 53
+52: predict taken
+53: event -4 activity werkmap > 0.5000 T: 54, F: 61
+54: event -4 activity mijn berichten > 0.5000 T: 55, F: 58
+55: event -1 age=50-65 > 0.5000 T: 56, F: 57
+56: predict taken
+57: predict taken
+58: event -3 activity question > 0.5000 T: 59, F: 60
+59: predict question
+60: predict taken
+61: predict question
+62: event -2 time since midnight scaled > 0.5418 T: 63, F: 64
+63: predict question
+64: predict mijn_werkmap
+65: predict question
+66: predict question
+67: event -3 activity question > 0.5000 T: 68, F: 69
+68: predict question
+69: predict mijn_werkmap
+70: predict question
+71: predict question
+72: predict question
+73: event -5 activity question > 0.5000 T: 74, F: 75
+74: predict mijn_berichten
+75: event -5 time since prev scaled > 0.0004 T: 76, F: 77
+76: predict question
+77: predict mijn_werkmap
+78: predict question
+79: event -3 activity question > 0.5000 T: 80, F: 81
+80: predict question
+81: predict mijn_werkmap
+82: event -3 activity question > 0.5000 T: 83, F: 86
+83: event -4 activity question > 0.5000 T: 84, F: 85
+84: predict question
+85: predict mijn_werkmap
+86: predict mijn_werkmap

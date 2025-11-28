@@ -1,0 +1,125 @@
+0: event -1 activity question > 0.5000 T: 1, F: 46
+1: event -2 time since monday scaled > 0.0000 T: 2, F: 3
+2: predict taken
+3: event -2 BoW consultant > 0.2340 T: 4, F: 35
+4: event -2 BoW workbook > 0.7985 T: 5, F: 32
+5: event -3 time since monday scaled > 0.0001 T: 6, F: 23
+6: event -2 activity question > 0.5000 T: 7, F: 8
+7: predict taken
+8: event -2 BoW want > 0.8440 T: 9, F: 22
+9: event -2 BoNG cancel appointment > 0.3935 T: 10, F: 21
+10: event -2 BoW message > 0.8023 T: 11, F: 20
+11: event -2 BoW work > 0.5423 T: 12, F: 17
+12: event -2 BoW want > 0.6070 T: 13, F: 14
+13: predict mijn_berichten
+14: event -2 BoW appointment > 0.3966 T: 15, F: 16
+15: predict mijn_berichten
+16: predict mijn_werkmap
+17: event -2 BoW work > 0.5477 T: 18, F: 19
+18: predict mijn_werkmap
+19: predict mijn_berichten
+20: predict mijn_werkmap
+21: predict mijn_werkmap
+22: predict mijn_werkmap
+23: event -2 time since prev scaled > 0.0003 T: 24, F: 31
+24: event -4 time since midnight scaled > 0.0000 T: 25, F: 30
+25: event -3 activity question > 0.5000 T: 26, F: 29
+26: event -2 activity question > 0.5000 T: 27, F: 28
+27: predict taken
+28: predict mijn_berichten
+29: predict mijn_berichten
+30: predict mijn_berichten
+31: predict mijn_berichten
+32: event -3 time since midnight scaled > 0.2084 T: 33, F: 34
+33: predict mijn_werkmap
+34: predict mijn_berichten
+35: event -3 time since monday scaled > 0.0238 T: 36, F: 41
+36: event -2 BoW consultant > 0.6249 T: 37, F: 40
+37: event -2 BoW uwv > 0.4257 T: 38, F: 39
+38: predict mijn_werkmap
+39: predict mijn_berichten
+40: predict mijn_berichten
+41: event -3 BoW consultant > 0.1280 T: 42, F: 43
+42: predict mijn_berichten
+43: event -4 time since midnight scaled > 0.1877 T: 44, F: 45
+44: predict mijn_werkmap
+45: predict mijn_berichten
+46: event -1 BoW consultant > 0.2340 T: 47, F: 118
+47: event -2 activity mijn berichten > 0.5000 T: 48, F: 113
+48: event -2 activity taken > 0.5000 T: 49, F: 110
+49: event -2 BoW consultant > 0.1280 T: 50, F: 107
+50: event -2 activity home > 0.5000 T: 51, F: 106
+51: event -5 time since monday scaled > 0.0238 T: 52, F: 99
+52: event -2 activity wijziging doorgeven > 0.5000 T: 53, F: 98
+53: event -3 BoW consultant > 0.1280 T: 54, F: 97
+54: event -1 BoW workbook > 0.7985 T: 55, F: 96
+55: event -2 activity mijn cv > 0.5000 T: 56, F: 95
+56: event -2 activity mijn werkmap > 0.5000 T: 57, F: 94
+57: event -2 activity aanvragen-ww > 0.5000 T: 58, F: 91
+58: event -2 activity vacatures bij mijn cv > 0.5000 T: 59, F: 90
+59: event -4 activity home > 0.5000 T: 60, F: 89
+60: event -1 BoW cancel > 0.2298 T: 61, F: 88
+61: event -2 activity mijn documenten > 0.5000 T: 62, F: 87
+62: event -1 BoW want > 0.8481 T: 63, F: 86
+63: event -2 BoW workbook > 0.5015 T: 64, F: 85
+64: event -4 activity werkmap > 0.5000 T: 65, F: 84
+65: event -4 BoW consultant > 0.1280 T: 66, F: 83
+66: event -4 activity mijn berichten > 0.5000 T: 67, F: 80
+67: event -2 activity werkmap > 0.5000 T: 68, F: 79
+68: event -4 activity mijn werkmap > 0.5000 T: 69, F: 78
+69: event -1 BoW message > 0.8023 T: 70, F: 77
+70: event -2 activity vacatures zoeken > 0.5000 T: 71, F: 76
+71: event -1 BoW work > 0.5423 T: 72, F: 73
+72: predict taken
+73: event -1 BoW work > 0.5477 T: 74, F: 75
+74: predict mijn_werkmap
+75: predict taken
+76: predict question
+77: predict taken
+78: predict question
+79: predict question
+80: event -3 activity question > 0.5000 T: 81, F: 82
+81: predict question
+82: predict taken
+83: predict mijn_werkmap
+84: predict question
+85: predict mijn_werkmap
+86: predict mijn_werkmap
+87: predict question
+88: predict mijn_werkmap
+89: predict question
+90: predict question
+91: event -3 activity question > 0.5000 T: 92, F: 93
+92: predict question
+93: predict mijn_werkmap
+94: predict question
+95: predict question
+96: predict mijn_werkmap
+97: predict mijn_werkmap
+98: predict question
+99: event -5 activity question > 0.5000 T: 100, F: 101
+100: predict mijn_berichten
+101: event -6 time since midnight scaled > 0.1667 T: 102, F: 105
+102: event -4 BoW consultant > 0.1941 T: 103, F: 104
+103: predict question
+104: predict mijn_werkmap
+105: predict mijn_werkmap
+106: predict question
+107: event -3 activity mijn berichten > 0.5000 T: 108, F: 109
+108: predict mijn_werkmap
+109: predict taken
+110: event -3 activity question > 0.5000 T: 111, F: 112
+111: predict question
+112: predict mijn_werkmap
+113: event -3 activity question > 0.5000 T: 114, F: 117
+114: event -4 activity question > 0.5000 T: 115, F: 116
+115: predict question
+116: predict mijn_werkmap
+117: predict mijn_werkmap
+118: event -4 activity home > 0.5000 T: 119, F: 124
+119: event -1 BoW give > 0.2963 T: 120, F: 123
+120: event -1 BoW consultant > 0.5290 T: 121, F: 122
+121: predict mijn_werkmap
+122: predict mijn_werkmap
+123: predict taken
+124: predict question

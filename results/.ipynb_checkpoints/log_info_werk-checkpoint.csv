@@ -1,0 +1,2 @@
+log,cases,events,events per trace,median case duration,mean case duration,activities,words pre filtering,words post filtering,vocabulary pre filtering,vocabulary post filtering
+./data/werk.xes,15001,55220,3.681087927471502,0.22373842592592594,0.7127488692111884,18,247010,101076,1203,817

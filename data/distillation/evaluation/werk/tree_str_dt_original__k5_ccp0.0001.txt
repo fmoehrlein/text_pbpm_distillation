@@ -1,0 +1,253 @@
+0: event -1 activity question > 0.5000 T: 1, F: 212
+1: event -1 activity werkmap > 0.5000 T: 2, F: 203
+2: event -1 activity home > 0.5000 T: 3, F: 172
+3: event -2 time since monday scaled > 0.0000 T: 4, F: 7
+4: event -1 activity inschrijven > 0.5000 T: 5, F: 6
+5: predict question
+6: predict aanvragen-ww
+7: event -1 activity mijn sollicitaties > 0.5000 T: 8, F: 159
+8: event -1 activity taken > 0.5000 T: 9, F: 108
+9: event -1 activity wijziging doorgeven > 0.5000 T: 10, F: 107
+10: event -1 activity aanvragen-ww > 0.5000 T: 11, F: 106
+11: event -1 activity mijn documenten > 0.5000 T: 12, F: 95
+12: event -2 activity home > 0.5000 T: 13, F: 84
+13: event -4 age=18-29 > 0.0238 T: 14, F: 45
+14: event -3 activity home > 0.5000 T: 15, F: 44
+15: event -1 activity inschrijven > 0.5000 T: 16, F: 43
+16: event -2 activity werkmap > 0.5000 T: 17, F: 34
+17: event -1 activity mijn werkmap > 0.5000 T: 18, F: 31
+18: event -1 activity mijn berichten > 0.5000 T: 19, F: 22
+19: event -3 time since monday scaled > 0.5423 T: 20, F: 21
+20: predict END
+21: predict END
+22: event -3 activity werkmap > 0.5000 T: 23, F: 30
+23: event -1 time since midnight scaled > 0.0012 T: 24, F: 29
+24: event -2 activity taken > 0.5000 T: 25, F: 26
+25: predict END
+26: event -2 time since midnight scaled > 0.0001 T: 27, F: 28
+27: predict question
+28: predict END
+29: predict END
+30: predict question
+31: event -1 time since midnight scaled > 0.0039 T: 32, F: 33
+32: predict END
+33: predict END
+34: event -3 time since monday scaled > 0.1667 T: 35, F: 36
+35: predict question
+36: event -1 activity mijn tips > 0.5000 T: 37, F: 42
+37: event -1 activity vragenlijst-uwv > 0.5000 T: 38, F: 41
+38: event -1 activity mijn werkmap > 0.5000 T: 39, F: 40
+39: predict END
+40: predict END
+41: predict taken
+42: predict taken
+43: predict aanvragen-ww
+44: predict question
+45: event -2 activity taken > 0.5000 T: 46, F: 65
+46: event -2 activity werkmap > 0.5000 T: 47, F: 62
+47: event -5 time since midnight scaled > 0.0009 T: 48, F: 59
+48: event -5 age=18-29 > 0.0596 T: 49, F: 54
+49: event -2 time since monday scaled > 0.3755 T: 50, F: 51
+50: predict END
+51: event -1 time since monday scaled > 0.3754 T: 52, F: 53
+52: predict home
+53: predict END
+54: event -1 activity mijn berichten > 0.5000 T: 55, F: 56
+55: predict END
+56: event -4 activity werkmap > 0.5000 T: 57, F: 58
+57: predict END
+58: predict home
+59: event -4 time since midnight scaled > 0.0104 T: 60, F: 61
+60: predict END
+61: predict home
+62: event -1 time since midnight scaled > 0.0003 T: 63, F: 64
+63: predict END
+64: predict home
+65: event -3 time since midnight scaled > 0.0083 T: 66, F: 79
+66: event -1 activity mijn berichten > 0.5000 T: 67, F: 76
+67: event -2 time since midnight scaled > 0.0002 T: 68, F: 69
+68: predict END
+69: event -1 activity mijn cv > 0.5000 T: 70, F: 71
+70: predict END
+71: event -3 age=18-29 > 0.5655 T: 72, F: 75
+72: event -1 time since monday scaled > 0.4796 T: 73, F: 74
+73: predict taken
+74: predict END
+75: predict taken
+76: event -5 time since midnight scaled > 0.0002 T: 77, F: 78
+77: predict END
+78: predict home
+79: event -2 time since midnight scaled > 0.0001 T: 80, F: 81
+80: predict END
+81: event -1 age=18-29 > 0.7768 T: 82, F: 83
+82: predict home
+83: predict END
+84: event -3 time since monday scaled > 0.1667 T: 85, F: 86
+85: predict question
+86: event -1 activity mijn berichten > 0.5000 T: 87, F: 90
+87: event -1 activity vacatures zoeken > 0.5000 T: 88, F: 89
+88: predict END
+89: predict END
+90: event -2 time since midnight scaled > 0.9219 T: 91, F: 94
+91: event -1 age=18-29 > 0.9881 T: 92, F: 93
+92: predict home
+93: predict END
+94: predict taken
+95: event -4 time since monday scaled > 0.4170 T: 96, F: 101
+96: event -2 activity question > 0.5000 T: 97, F: 100
+97: event -3 time since monday scaled > 0.1458 T: 98, F: 99
+98: predict mijn_berichten
+99: predict mijn_berichten
+100: predict END
+101: event -4 time since midnight scaled > 0.3124 T: 102, F: 105
+102: event -2 activity werkmap > 0.5000 T: 103, F: 104
+103: predict END
+104: predict home
+105: predict home
+106: predict home
+107: predict END
+108: event -2 activity question > 0.5000 T: 109, F: 154
+109: event -3 time since monday scaled > 0.0000 T: 110, F: 111
+110: predict question
+111: event -3 activity question > 0.5000 T: 112, F: 137
+112: event -4 time since monday scaled > 0.0003 T: 113, F: 114
+113: predict question
+114: event -3 age=18-29 > 0.9494 T: 115, F: 134
+115: event -5 activity home > 0.5000 T: 116, F: 133
+116: event -3 activity taken > 0.5000 T: 117, F: 120
+117: event -2 activity mijn berichten > 0.5000 T: 118, F: 119
+118: predict END
+119: predict home
+120: event -3 time since midnight scaled > 0.0006 T: 121, F: 130
+121: event -4 time since midnight scaled > 0.0000 T: 122, F: 123
+122: predict question
+123: event -4 time since midnight scaled > 0.0008 T: 124, F: 125
+124: predict END
+125: event -4 time since midnight scaled > 0.1130 T: 126, F: 129
+126: event -1 time since midnight scaled > 0.0004 T: 127, F: 128
+127: predict home
+128: predict home
+129: predict END
+130: event -2 age=18-29 > 0.7947 T: 131, F: 132
+131: predict END
+132: predict home
+133: predict home
+134: event -4 time since midnight scaled > 0.0019 T: 135, F: 136
+135: predict END
+136: predict home
+137: event -2 activity werkmap > 0.5000 T: 138, F: 153
+138: event -2 activity home > 0.5000 T: 139, F: 146
+139: event -1 time since midnight scaled > 0.0001 T: 140, F: 141
+140: predict END
+141: event -4 age=18-29 > 0.3751 T: 142, F: 143
+142: predict END
+143: event -3 time since monday scaled > 0.6671 T: 144, F: 145
+144: predict END
+145: predict home
+146: event -2 age=18-29 > 0.9822 T: 147, F: 152
+147: event -1 time since midnight scaled > 0.0001 T: 148, F: 149
+148: predict END
+149: event -5 time since monday scaled > 0.4587 T: 150, F: 151
+150: predict home
+151: predict home
+152: predict END
+153: predict home
+154: event -3 age=18-29 > 0.2143 T: 155, F: 158
+155: event -1 age=18-29 > 0.7084 T: 156, F: 157
+156: predict END
+157: predict END
+158: predict END
+159: event -2 activity taken > 0.5000 T: 160, F: 163
+160: event -3 activity question > 0.5000 T: 161, F: 162
+161: predict taken
+162: predict taken
+163: event -5 time since midnight scaled > 0.0004 T: 164, F: 167
+164: event -2 time since midnight scaled > 0.0004 T: 165, F: 166
+165: predict taken
+166: predict taken
+167: event -5 time since midnight scaled > 0.1230 T: 168, F: 169
+168: predict home
+169: event -4 time since midnight scaled > 0.0001 T: 170, F: 171
+170: predict END
+171: predict taken
+172: event -2 activity question > 0.5000 T: 173, F: 186
+173: event -3 age=18-29 > 0.0000 T: 174, F: 177
+174: event -2 age=18-29 > 0.0298 T: 175, F: 176
+175: predict taken
+176: predict question
+177: event -2 activity aanvragen-ww > 0.5000 T: 178, F: 183
+178: event -4 age=18-29 > 0.0208 T: 179, F: 182
+179: event -3 activity question > 0.5000 T: 180, F: 181
+180: predict question
+181: predict END
+182: predict END
+183: event -1 time since midnight scaled > 0.0005 T: 184, F: 185
+184: predict END
+185: predict END
+186: event -1 time since midnight scaled > 0.0039 T: 187, F: 200
+187: event -3 age=18-29 > 0.0238 T: 188, F: 191
+188: event -1 time since midnight scaled > 0.0016 T: 189, F: 190
+189: predict mijn_berichten
+190: predict taken
+191: event -3 activity question > 0.5000 T: 192, F: 193
+192: predict END
+193: event -4 time since monday scaled > 0.3752 T: 194, F: 195
+194: predict mijn_berichten
+195: event -4 activity question > 0.5000 T: 196, F: 197
+196: predict END
+197: event -5 time since monday scaled > 0.2085 T: 198, F: 199
+198: predict mijn_berichten
+199: predict END
+200: event -1 time since midnight scaled > 0.2627 T: 201, F: 202
+201: predict taken
+202: predict taken
+203: event -1 time since midnight scaled > 0.0039 T: 204, F: 209
+204: event -2 activity mijn berichten > 0.5000 T: 205, F: 208
+205: event -2 activity wijziging doorgeven > 0.5000 T: 206, F: 207
+206: predict mijn_berichten
+207: predict wijziging_doorgeven
+208: predict END
+209: event -1 time since midnight scaled > 0.4266 T: 210, F: 211
+210: predict taken
+211: predict taken
+212: event -2 activity mijn berichten > 0.5000 T: 213, F: 244
+213: event -2 time since monday scaled > 0.3339 T: 214, F: 217
+214: event -1 age=50-65 > 0.5000 T: 215, F: 216
+215: predict question
+216: predict question
+217: event -2 activity question > 0.5000 T: 218, F: 231
+218: event -2 activity aanvragen-ww > 0.5000 T: 219, F: 230
+219: event -1 time since midnight scaled > 0.0067 T: 220, F: 225
+220: event -2 activity taken > 0.5000 T: 221, F: 224
+221: event -2 activity mijn cv > 0.5000 T: 222, F: 223
+222: predict home
+223: predict mijn_cv
+224: predict taken
+225: event -2 activity mijn cv > 0.5000 T: 226, F: 229
+226: event -1 age=18-29 > 0.4465 T: 227, F: 228
+227: predict END
+228: predict question
+229: predict mijn_cv
+230: predict aanvragen-ww
+231: event -3 time since monday scaled > 0.7919 T: 232, F: 243
+232: event -3 time since monday scaled > 0.3337 T: 233, F: 238
+233: event -1 age=50-65 > 0.5000 T: 234, F: 235
+234: predict question
+235: event -2 age=18-29 > 0.0655 T: 236, F: 237
+236: predict taken
+237: predict question
+238: event -3 activity question > 0.5000 T: 239, F: 242
+239: event -2 time since midnight scaled > 0.0003 T: 240, F: 241
+240: predict mijn_berichten
+241: predict home
+242: predict question
+243: predict END
+244: event -1 time since midnight scaled > 0.0094 T: 245, F: 252
+245: event -3 activity mijn documenten > 0.5000 T: 246, F: 251
+246: event -4 activity question > 0.5000 T: 247, F: 250
+247: event -4 age=18-29 > 0.0923 T: 248, F: 249
+248: predict mijn_berichten
+249: predict home
+250: predict mijn_berichten
+251: predict home
+252: predict END

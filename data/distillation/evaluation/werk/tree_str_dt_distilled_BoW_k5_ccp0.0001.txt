@@ -1,0 +1,541 @@
+0: event -1 activity question > 0.5000 T: 1, F: 450
+1: event -1 activity werkmap > 0.5000 T: 2, F: 427
+2: event -1 activity mijn sollicitaties > 0.5000 T: 3, F: 396
+3: event -1 activity home > 0.5000 T: 4, F: 343
+4: event -2 activity question > 0.5000 T: 5, F: 296
+5: event -3 time since monday scaled > 0.0000 T: 6, F: 9
+6: event -1 activity inschrijven > 0.5000 T: 7, F: 8
+7: predict question
+8: predict aanvragen-ww
+9: event -1 activity taken > 0.5000 T: 10, F: 215
+10: event -1 activity mijn documenten > 0.5000 T: 11, F: 182
+11: event -2 age=50-65 > 0.5000 T: 12, F: 123
+12: event -2 time since midnight scaled > 0.0004 T: 13, F: 58
+13: event -2 activity taken > 0.5000 T: 14, F: 29
+14: event -1 activity aanvragen-ww > 0.5000 T: 15, F: 26
+15: event -4 time since midnight scaled > 0.0050 T: 16, F: 19
+16: event -2 activity vacatures zoeken > 0.5000 T: 17, F: 18
+17: predict mijn_documenten
+18: predict home
+19: event -1 activity mijn berichten > 0.5000 T: 20, F: 23
+20: event -1 time since midnight scaled > 0.0000 T: 21, F: 22
+21: predict home
+22: predict mijn_documenten
+23: event -3 time since midnight scaled > 0.0003 T: 24, F: 25
+24: predict home
+25: predict mijn_documenten
+26: event -2 time since monday scaled > 0.6672 T: 27, F: 28
+27: predict home
+28: predict mijn_documenten
+29: event -1 activity wijziging doorgeven > 0.5000 T: 30, F: 57
+30: event -3 activity mijn berichten > 0.5000 T: 31, F: 54
+31: event -1 activity vacatures zoeken > 0.5000 T: 32, F: 53
+32: event -3 time since midnight scaled > 0.0000 T: 33, F: 36
+33: event -3 activity question > 0.5000 T: 34, F: 35
+34: predict question
+35: predict mijn_documenten
+36: event -3 activity mijn sollicitaties > 0.5000 T: 37, F: 50
+37: event -4 BoW consultant > 0.1280 T: 38, F: 49
+38: event -1 activity vragenlijst-uwv > 0.5000 T: 39, F: 48
+39: event -1 activity mijn werkmap > 0.5000 T: 40, F: 47
+40: event -1 activity wdo > 0.5000 T: 41, F: 46
+41: event -1 activity mijn cv > 0.5000 T: 42, F: 43
+42: predict home
+43: event -2 age=18-29 > 0.7501 T: 44, F: 45
+44: predict home
+45: predict mijn_documenten
+46: predict mijn_documenten
+47: predict taken
+48: predict taken
+49: predict mijn_documenten
+50: event -2 age=40-49 > 0.5000 T: 51, F: 52
+51: predict mijn_documenten
+52: predict home
+53: predict mijn_documenten
+54: event -4 activity home > 0.5000 T: 55, F: 56
+55: predict mijn_documenten
+56: predict home
+57: predict mijn_documenten
+58: event -1 activity aanvragen-ww > 0.5000 T: 59, F: 122
+59: event -1 activity mijn berichten > 0.5000 T: 60, F: 85
+60: event -1 activity vragenlijst-uwv > 0.5000 T: 61, F: 84
+61: event -1 activity mijn werkmap > 0.5000 T: 62, F: 71
+62: event -1 activity mijn tips > 0.5000 T: 63, F: 68
+63: event -2 activity aanvragen-ww > 0.5000 T: 64, F: 67
+64: event -5 BoW unemployment > 0.1371 T: 65, F: 66
+65: predict mijn_documenten
+66: predict mijn_documenten
+67: predict aanvragen-ww
+68: event -2 activity werkmap > 0.5000 T: 69, F: 70
+69: predict mijn_documenten
+70: predict taken
+71: event -3 BoW want > 0.1162 T: 72, F: 83
+72: event -2 activity werkmap > 0.5000 T: 73, F: 82
+73: event -2 age=40-49 > 0.5000 T: 74, F: 77
+74: event -2 activity taken > 0.5000 T: 75, F: 76
+75: predict mijn_documenten
+76: predict taken
+77: event -1 time since midnight scaled > 0.0003 T: 78, F: 81
+78: event -4 time since monday scaled > 0.1670 T: 79, F: 80
+79: predict taken
+80: predict mijn_documenten
+81: predict mijn_documenten
+82: predict mijn_documenten
+83: predict mijn_werkmap
+84: predict taken
+85: event -2 age=40-49 > 0.5000 T: 86, F: 103
+86: event -2 activity werkmap > 0.5000 T: 87, F: 96
+87: event -5 time since monday scaled > 0.3338 T: 88, F: 93
+88: event -2 time since midnight scaled > 0.0005 T: 89, F: 92
+89: event -3 time since midnight scaled > 0.0023 T: 90, F: 91
+90: predict mijn_documenten
+91: predict home
+92: predict mijn_documenten
+93: event -2 activity home > 0.5000 T: 94, F: 95
+94: predict mijn_documenten
+95: predict home
+96: event -2 time since midnight scaled > 0.2869 T: 97, F: 98
+97: predict mijn_documenten
+98: event -4 age=18-29 > 0.1340 T: 99, F: 102
+99: event -3 BoW consultant > 0.1280 T: 100, F: 101
+100: predict home
+101: predict mijn_documenten
+102: predict mijn_documenten
+103: event -3 time since midnight scaled > 0.0003 T: 104, F: 119
+104: event -2 activity taken > 0.5000 T: 105, F: 118
+105: event -3 BoW consultant > 0.1280 T: 106, F: 113
+106: event -2 activity mijn documenten > 0.5000 T: 107, F: 112
+107: event -2 activity wijziging doorgeven > 0.5000 T: 108, F: 111
+108: event -2 activity vacatures bij mijn cv > 0.5000 T: 109, F: 110
+109: predict home
+110: predict mijn_documenten
+111: predict mijn_documenten
+112: predict mijn_documenten
+113: event -2 activity home > 0.5000 T: 114, F: 115
+114: predict mijn_documenten
+115: event -3 age=18-29 > 0.5685 T: 116, F: 117
+116: predict home
+117: predict mijn_documenten
+118: predict mijn_documenten
+119: event -5 age=18-29 > 0.0566 T: 120, F: 121
+120: predict mijn_documenten
+121: predict mijn_documenten
+122: predict home
+123: event -1 activity mijn berichten > 0.5000 T: 124, F: 165
+124: event -1 activity vacatures bij mijn cv > 0.5000 T: 125, F: 146
+125: event -1 activity aanvragen-ww > 0.5000 T: 126, F: 145
+126: event -2 activity home > 0.5000 T: 127, F: 136
+127: event -1 activity mijn tips > 0.5000 T: 128, F: 135
+128: event -3 activity home > 0.5000 T: 129, F: 130
+129: predict mijn_documenten
+130: event -1 activity mijn cv > 0.5000 T: 131, F: 134
+131: event -1 activity mijn werkmap > 0.5000 T: 132, F: 133
+132: predict mijn_documenten
+133: predict home
+134: predict home
+135: predict taken
+136: event -1 activity mijn werkmap > 0.5000 T: 137, F: 142
+137: event -1 activity mijn tips > 0.5000 T: 138, F: 141
+138: event -1 activity inschrijven > 0.5000 T: 139, F: 140
+139: predict mijn_documenten
+140: predict home
+141: predict home
+142: event -4 time since monday scaled > 0.2086 T: 143, F: 144
+143: predict taken
+144: predict home
+145: predict home
+146: event -2 activity home > 0.5000 T: 147, F: 164
+147: event -2 time since midnight scaled > 0.0004 T: 148, F: 155
+148: event -2 activity taken > 0.5000 T: 149, F: 150
+149: predict mijn_documenten
+150: event -3 activity vacatures bij mijn cv > 0.5000 T: 151, F: 154
+151: event -3 activity mijn berichten > 0.5000 T: 152, F: 153
+152: predict home
+153: predict mijn_documenten
+154: predict mijn_documenten
+155: event -2 activity werkmap > 0.5000 T: 156, F: 157
+156: predict mijn_documenten
+157: event -3 age=18-29 > 0.2917 T: 158, F: 161
+158: event -3 time since midnight scaled > 0.0002 T: 159, F: 160
+159: predict home
+160: predict taken
+161: event -3 time since midnight scaled > 0.0001 T: 162, F: 163
+162: predict mijn_documenten
+163: predict home
+164: predict home
+165: event -2 activity home > 0.5000 T: 166, F: 181
+166: event -3 BoW consultant > 0.1280 T: 167, F: 180
+167: event -2 activity werkmap > 0.5000 T: 168, F: 179
+168: event -2 time since midnight scaled > 0.0007 T: 169, F: 178
+169: event -2 activity taken > 0.5000 T: 170, F: 175
+170: event -4 activity question > 0.5000 T: 171, F: 174
+171: event -5 activity question > 0.5000 T: 172, F: 173
+172: predict question
+173: predict home
+174: predict mijn_documenten
+175: event -4 age=50-65 > 0.5000 T: 176, F: 177
+176: predict question
+177: predict home
+178: predict mijn_documenten
+179: predict home
+180: predict mijn_documenten
+181: predict home
+182: event -4 time since monday scaled > 0.3339 T: 183, F: 198
+183: event -1 age=50-65 > 0.5000 T: 184, F: 189
+184: event -2 activity taken > 0.5000 T: 185, F: 188
+185: event -3 activity home > 0.5000 T: 186, F: 187
+186: predict mijn_werkmap
+187: predict question
+188: predict mijn_documenten
+189: event -2 activity werkmap > 0.5000 T: 190, F: 197
+190: event -2 time since midnight scaled > 0.0006 T: 191, F: 192
+191: predict question
+192: event -3 BoW cancel > 0.1388 T: 193, F: 196
+193: event -2 activity home > 0.5000 T: 194, F: 195
+194: predict mijn_documenten
+195: predict mijn_werkmap
+196: predict mijn_werkmap
+197: predict mijn_werkmap
+198: event -4 BoW consultant > 0.1280 T: 199, F: 214
+199: event -3 age=40-49 > 0.5000 T: 200, F: 211
+200: event -2 time since midnight scaled > 0.6394 T: 201, F: 210
+201: event -2 activity mijn berichten > 0.5000 T: 202, F: 203
+202: predict home
+203: event -3 activity home > 0.5000 T: 204, F: 205
+204: predict mijn_documenten
+205: event -1 age=18-29 > 0.5298 T: 206, F: 207
+206: predict home
+207: event -2 time since midnight scaled > 0.0001 T: 208, F: 209
+208: predict mijn_documenten
+209: predict mijn_werkmap
+210: predict mijn_werkmap
+211: event -3 activity taken > 0.5000 T: 212, F: 213
+212: predict home
+213: predict mijn_documenten
+214: predict mijn_werkmap
+215: event -2 activity werkmap > 0.5000 T: 216, F: 289
+216: event -2 activity home > 0.5000 T: 217, F: 268
+217: event -3 activity question > 0.5000 T: 218, F: 267
+218: event -1 age=18-29 > 0.7857 T: 219, F: 254
+219: event -3 activity taken > 0.5000 T: 220, F: 239
+220: event -2 activity mijn berichten > 0.5000 T: 221, F: 236
+221: event -1 age=30-39 > 0.5000 T: 222, F: 231
+222: event -3 activity mijn berichten > 0.5000 T: 223, F: 228
+223: event -2 activity mijn werkmap > 0.5000 T: 224, F: 225
+224: predict home
+225: event -3 activity home > 0.5000 T: 226, F: 227
+226: predict mijn_documenten
+227: predict home
+228: event -3 time since midnight scaled > 0.0004 T: 229, F: 230
+229: predict home
+230: predict mijn_documenten
+231: event -4 activity question > 0.5000 T: 232, F: 233
+232: predict home
+233: event -1 time since midnight scaled > 0.0002 T: 234, F: 235
+234: predict mijn_documenten
+235: predict mijn_documenten
+236: event -3 time since midnight scaled > 0.0001 T: 237, F: 238
+237: predict question
+238: predict home
+239: event -3 time since midnight scaled > 0.0006 T: 240, F: 253
+240: event -2 activity mijn berichten > 0.5000 T: 241, F: 246
+241: event -4 time since midnight scaled > 0.0000 T: 242, F: 243
+242: predict question
+243: event -4 activity mijn sollicitaties > 0.5000 T: 244, F: 245
+244: predict home
+245: predict home
+246: event -4 activity home > 0.5000 T: 247, F: 250
+247: event -4 time since midnight scaled > 0.0000 T: 248, F: 249
+248: predict question
+249: predict mijn_documenten
+250: event -5 time since midnight scaled > 0.0004 T: 251, F: 252
+251: predict home
+252: predict mijn_documenten
+253: predict mijn_documenten
+254: event -4 activity question > 0.5000 T: 255, F: 262
+255: event -2 activity mijn berichten > 0.5000 T: 256, F: 261
+256: event -2 time since midnight scaled > 0.0000 T: 257, F: 258
+257: predict mijn_documenten
+258: event -2 activity mijn cv > 0.5000 T: 259, F: 260
+259: predict home
+260: predict mijn_documenten
+261: predict mijn_documenten
+262: event -5 time since midnight scaled > 0.0001 T: 263, F: 266
+263: event -5 age=50-65 > 0.5000 T: 264, F: 265
+264: predict mijn_documenten
+265: predict home
+266: predict home
+267: predict mijn_documenten
+268: event -1 age=18-29 > 0.9822 T: 269, F: 280
+269: event -3 BoW cancel > 0.1388 T: 270, F: 279
+270: event -3 activity taken > 0.5000 T: 271, F: 276
+271: event -2 age=18-29 > 0.8334 T: 272, F: 273
+272: predict home
+273: event -3 age=30-39 > 0.5000 T: 274, F: 275
+274: predict home
+275: predict mijn_documenten
+276: event -3 time since midnight scaled > 0.0095 T: 277, F: 278
+277: predict home
+278: predict mijn_documenten
+279: predict mijn_werkmap
+280: event -4 time since monday scaled > 0.3753 T: 281, F: 284
+281: event -3 BoW consultant > 0.3221 T: 282, F: 283
+282: predict mijn_documenten
+283: predict mijn_werkmap
+284: event -2 time since midnight scaled > 0.4150 T: 285, F: 286
+285: predict home
+286: event -5 age=18-29 > 0.5000 T: 287, F: 288
+287: predict mijn_documenten
+288: predict home
+289: event -3 BoW consultant > 0.1280 T: 290, F: 291
+290: predict home
+291: event -2 time since midnight scaled > 0.6331 T: 292, F: 295
+292: event -2 time since monday scaled > 0.7085 T: 293, F: 294
+293: predict mijn_werkmap
+294: predict home
+295: predict home
+296: event -1 activity aanvragen-ww > 0.5000 T: 297, F: 340
+297: event -1 activity inschrijven > 0.5000 T: 298, F: 333
+298: event -1 activity mijn documenten > 0.5000 T: 299, F: 324
+299: event -4 activity werkmap > 0.5000 T: 300, F: 319
+300: event -2 BoW consultant > 0.2340 T: 301, F: 310
+301: event -5 activity werkmap > 0.5000 T: 302, F: 309
+302: event -2 BoW message > 0.7951 T: 303, F: 304
+303: predict mijn_documenten
+304: event -1 activity mijn berichten > 0.5000 T: 305, F: 308
+305: event -2 BoW message > 0.8023 T: 306, F: 307
+306: predict mijn_werkmap
+307: predict mijn_documenten
+308: predict mijn_documenten
+309: predict home
+310: event -1 activity mijn berichten > 0.5000 T: 311, F: 318
+311: event -1 activity wijziging doorgeven > 0.5000 T: 312, F: 317
+312: event -1 time since midnight scaled > 0.2476 T: 313, F: 316
+313: event -2 BoW work > 0.4709 T: 314, F: 315
+314: predict mijn_werkmap
+315: predict mijn_documenten
+316: predict mijn_documenten
+317: predict mijn_documenten
+318: predict mijn_documenten
+319: event -1 activity taken > 0.5000 T: 320, F: 323
+320: event -1 time since midnight scaled > 0.0009 T: 321, F: 322
+321: predict mijn_documenten
+322: predict home
+323: predict home
+324: event -2 BoW consultant > 0.1280 T: 325, F: 332
+325: event -2 time since midnight scaled > 0.0002 T: 326, F: 327
+326: predict mijn_documenten
+327: event -2 age=50-65 > 0.5000 T: 328, F: 331
+328: event -1 time since monday scaled > 0.4589 T: 329, F: 330
+329: predict mijn_documenten
+330: predict mijn_werkmap
+331: predict mijn_documenten
+332: predict mijn_werkmap
+333: event -2 BoW ww > 0.7434 T: 334, F: 339
+334: event -2 age=40-49 > 0.5000 T: 335, F: 338
+335: event -3 BoW ww > 0.7434 T: 336, F: 337
+336: predict home
+337: predict aanvragen-ww
+338: predict aanvragen-ww
+339: predict aanvragen-ww
+340: event -3 activity aanvragen-ww > 0.5000 T: 341, F: 342
+341: predict home
+342: predict home
+343: event -2 activity question > 0.5000 T: 344, F: 355
+344: event -3 age=18-29 > 0.0000 T: 345, F: 348
+345: event -2 age=18-29 > 0.0298 T: 346, F: 347
+346: predict taken
+347: predict question
+348: event -3 activity wijziging doorgeven > 0.5000 T: 349, F: 354
+349: event -4 age=18-29 > 0.0208 T: 350, F: 353
+350: event -3 activity question > 0.5000 T: 351, F: 352
+351: predict question
+352: predict mijn_documenten
+353: predict mijn_documenten
+354: predict mijn_documenten
+355: event -2 BoW consultant > 0.1280 T: 356, F: 391
+356: event -1 time since midnight scaled > 0.0035 T: 357, F: 376
+357: event -3 time since monday scaled > 0.1667 T: 358, F: 363
+358: event -2 BoW want > 0.6070 T: 359, F: 362
+359: event -2 BoW appointment > 0.7466 T: 360, F: 361
+360: predict taken
+361: predict mijn_werkmap
+362: predict mijn_werkmap
+363: event -3 activity question > 0.5000 T: 364, F: 365
+364: predict mijn_documenten
+365: event -4 activity taken > 0.5000 T: 366, F: 375
+366: event -3 BoW consultant > 0.1280 T: 367, F: 374
+367: event -4 time since monday scaled > 0.3962 T: 368, F: 369
+368: predict taken
+369: event -4 activity question > 0.5000 T: 370, F: 371
+370: predict mijn_documenten
+371: event -5 activity taken > 0.5000 T: 372, F: 373
+372: predict taken
+373: predict mijn_documenten
+374: predict mijn_werkmap
+375: predict mijn_documenten
+376: event -2 BoW ww > 0.8354 T: 377, F: 390
+377: event -3 BoW consultant > 0.1280 T: 378, F: 389
+378: event -2 BoW appointment > 0.3208 T: 379, F: 386
+379: event -3 BoW ww > 0.8205 T: 380, F: 385
+380: event -4 BoW ww > 0.7434 T: 381, F: 384
+381: event -2 BoW message > 0.7951 T: 382, F: 383
+382: predict taken
+383: predict mijn_werkmap
+384: predict mijn_documenten
+385: predict mijn_documenten
+386: event -2 BoW appointment > 0.8966 T: 387, F: 388
+387: predict mijn_werkmap
+388: predict taken
+389: predict mijn_werkmap
+390: predict mijn_documenten
+391: event -3 activity mijn berichten > 0.5000 T: 392, F: 395
+392: event -4 age=18-29 > 0.2173 T: 393, F: 394
+393: predict mijn_werkmap
+394: predict mijn_documenten
+395: predict mijn_documenten
+396: event -5 time since midnight scaled > 0.0003 T: 397, F: 420
+397: event -3 activity taken > 0.5000 T: 398, F: 419
+398: event -4 time since monday scaled > 0.3334 T: 399, F: 400
+399: predict taken
+400: event -2 time since midnight scaled > 0.0005 T: 401, F: 408
+401: event -4 activity taken > 0.5000 T: 402, F: 407
+402: event -3 activity question > 0.5000 T: 403, F: 404
+403: predict taken
+404: event -2 activity taken > 0.5000 T: 405, F: 406
+405: predict taken
+406: predict mijn_documenten
+407: predict mijn_documenten
+408: event -2 activity taken > 0.5000 T: 409, F: 410
+409: predict taken
+410: event -3 activity question > 0.5000 T: 411, F: 412
+411: predict taken
+412: event -2 time since midnight scaled > 0.6302 T: 413, F: 418
+413: event -4 age=30-39 > 0.5000 T: 414, F: 415
+414: predict mijn_documenten
+415: event -2 time since midnight scaled > 0.0900 T: 416, F: 417
+416: predict mijn_documenten
+417: predict taken
+418: predict taken
+419: predict mijn_documenten
+420: event -4 age=50-65 > 0.5000 T: 421, F: 426
+421: event -5 time since midnight scaled > 0.2939 T: 422, F: 425
+422: event -3 time since midnight scaled > 0.0005 T: 423, F: 424
+423: predict mijn_documenten
+424: predict home
+425: predict taken
+426: predict home
+427: event -2 BoW consultant > 0.1280 T: 428, F: 449
+428: event -2 activity question > 0.5000 T: 429, F: 438
+429: event -1 age=50-65 > 0.5000 T: 430, F: 435
+430: event -2 time since midnight scaled > 0.0008 T: 431, F: 432
+431: predict mijn_werkmap
+432: event -3 BoW want > 0.1415 T: 433, F: 434
+433: predict mijn_documenten
+434: predict mijn_berichten
+435: event -1 time since midnight scaled > 0.0001 T: 436, F: 437
+436: predict taken
+437: predict mijn_documenten
+438: event -3 BoW consultant > 0.1280 T: 439, F: 448
+439: event -4 BoW consultant > 0.1280 T: 440, F: 447
+440: event -2 BoW message > 0.7951 T: 441, F: 444
+441: event -3 activity wijziging doorgeven > 0.5000 T: 442, F: 443
+442: predict taken
+443: predict mijn_documenten
+444: event -2 BoW message > 0.8023 T: 445, F: 446
+445: predict mijn_werkmap
+446: predict taken
+447: predict mijn_werkmap
+448: predict mijn_werkmap
+449: predict mijn_werkmap
+450: event -1 BoW consultant > 0.2340 T: 451, F: 536
+451: event -2 activity mijn berichten > 0.5000 T: 452, F: 531
+452: event -2 activity taken > 0.5000 T: 453, F: 518
+453: event -2 BoW consultant > 0.1280 T: 454, F: 515
+454: event -4 time since midnight scaled > 0.0000 T: 455, F: 512
+455: event -3 activity taken > 0.5000 T: 456, F: 509
+456: event -3 activity mijn berichten > 0.5000 T: 457, F: 508
+457: event -1 BoW appointment > 0.5473 T: 458, F: 503
+458: event -3 BoW consultant > 0.1280 T: 459, F: 502
+459: event -1 BoW message > 0.7951 T: 460, F: 499
+460: event -2 activity aanvragen-ww > 0.5000 T: 461, F: 498
+461: event -2 activity wijziging doorgeven > 0.5000 T: 462, F: 493
+462: event -2 activity vacatures bij mijn cv > 0.5000 T: 463, F: 492
+463: event -2 activity mijn werkmap > 0.5000 T: 464, F: 491
+464: event -2 activity mijn cv > 0.5000 T: 465, F: 488
+465: event -1 BoW want > 0.8481 T: 466, F: 485
+466: event -4 activity taken > 0.5000 T: 467, F: 484
+467: event -4 activity mijn berichten > 0.5000 T: 468, F: 483
+468: event -3 activity wijziging doorgeven > 0.5000 T: 469, F: 482
+469: event -2 activity home > 0.5000 T: 470, F: 481
+470: event -2 activity werkmap > 0.5000 T: 471, F: 480
+471: event -3 activity mijn werkmap > 0.5000 T: 472, F: 479
+472: event -4 BoW consultant > 0.1280 T: 473, F: 478
+473: event -3 activity vacatures bij mijn cv > 0.5000 T: 474, F: 477
+474: event -3 activity mijn documenten > 0.5000 T: 475, F: 476
+475: predict question
+476: predict mijn_documenten
+477: predict home
+478: predict mijn_werkmap
+479: predict home
+480: predict home
+481: predict home
+482: predict mijn_documenten
+483: predict mijn_werkmap
+484: predict home
+485: event -1 time since midnight scaled > 0.0006 T: 486, F: 487
+486: predict mijn_werkmap
+487: predict question
+488: event -3 time since monday scaled > 0.2083 T: 489, F: 490
+489: predict home
+490: predict werkmap
+491: predict mijn_documenten
+492: predict home
+493: event -2 age=50-65 > 0.5000 T: 494, F: 497
+494: event -1 age=40-49 > 0.5000 T: 495, F: 496
+495: predict mijn_documenten
+496: predict home
+497: predict home
+498: predict aanvragen-ww
+499: event -1 BoW message > 0.8010 T: 500, F: 501
+500: predict mijn_werkmap
+501: predict question
+502: predict mijn_werkmap
+503: event -1 BoW not > 0.4302 T: 504, F: 507
+504: event -1 BoW want > 0.2462 T: 505, F: 506
+505: predict question
+506: predict mijn_werkmap
+507: predict mijn_werkmap
+508: predict home
+509: event -4 activity werkmap > 0.5000 T: 510, F: 511
+510: predict home
+511: predict mijn_documenten
+512: event -5 activity question > 0.5000 T: 513, F: 514
+513: predict mijn_documenten
+514: predict mijn_werkmap
+515: event -2 BoW work > 0.5558 T: 516, F: 517
+516: predict mijn_werkmap
+517: predict question
+518: event -1 age=40-49 > 0.5000 T: 519, F: 526
+519: event -3 activity mijn berichten > 0.5000 T: 520, F: 525
+520: event -3 activity werkmap > 0.5000 T: 521, F: 524
+521: event -4 time since midnight scaled > 0.0000 T: 522, F: 523
+522: predict taken
+523: predict home
+524: predict home
+525: predict home
+526: event -3 activity home > 0.5000 T: 527, F: 530
+527: event -2 age=18-29 > 0.5775 T: 528, F: 529
+528: predict home
+529: predict taken
+530: predict taken
+531: event -4 age=18-29 > 0.1459 T: 532, F: 533
+532: predict mijn_werkmap
+533: event -3 time since midnight scaled > 0.0004 T: 534, F: 535
+534: predict home
+535: predict mijn_werkmap
+536: event -1 BoW consultant > 0.5937 T: 537, F: 540
+537: event -1 BoW give > 0.2963 T: 538, F: 539
+538: predict mijn_werkmap
+539: predict question
+540: predict question
