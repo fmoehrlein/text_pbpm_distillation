@@ -175,11 +175,10 @@ class LogEncoder(Encoder):
             else:
                 self.text_encoder.fit(docs)
 
-    #TODO: i adjusted the offset for the 
     def transform(self, log, for_training=True):
 
         def _maybe_reduce(vecs, target_dim):
-            """Reduce embedding dimensionality to target_dim using UMAP if possible.
+            """Reduce embedding dimensionality to target_dim using UMAP if necessary.
             If there aren't enough samples, just truncate the vectors to the first target_dim dimensions.
             """
             print("vecs shape:", vecs.shape)
