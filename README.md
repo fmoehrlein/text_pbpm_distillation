@@ -3,7 +3,7 @@
 This repository contains the implementation of a knowledge distillation framework designed to enhance the explainability of predictive process monitoring models that leverage textual event log attributes.
 Our approach transfers knowledge from a powerful deep learning teacher model, which learns from transformer-based text embeddings, to an interpretable decision tree student model using semantically transparent text representations such as Bag-of-Words, Bag-of-n-Grams, and Latent Dirichlet Allocation, for approximation and interpretation.
 
-This work builds upon the text-aware predictive process monitoring architecture **TAPPBERT** proposed by Cabrera et al. ([*Text-aware predictive process monitoring with contextualized word embeddings*](https://link.springer.com/chapter/10.1007/978-3-031-25383-6_22)), whose source code is available at: [https://github.com/fau-is/tappbert](https://github.com/fau-is/tappbert).
+This work builds upon the text-aware predictive process monitoring architecture **TAPPBERT** proposed by ([*Cabrera et al. (2023)*](https://link.springer.com/chapter/10.1007/978-3-031-25383-6_22)), whose source code is available at: [https://github.com/fau-is/tappbert](https://github.com/fau-is/tappbert).
 
 ---
 
